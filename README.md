@@ -23,6 +23,7 @@ Simple and lightweight jQuery Plugin for displaying a nice, vertical timeline wi
 	data-title="If you want to show this title instead of the date"
 
 The date format given to the function should always be like <code>YYYY-MM-DD</code>. Month and day are optional. You can also combine different kinds of date types for your different events – if no month and no day is given, the plugin will interpret it as 01/01/1970. Something like this is possible:
+
 	<li data-date="2010" data-date-end="2011-06-12">…</li>
 	<li data-date="2012-11" data-date-end="2013">…</li>
 
