@@ -6,7 +6,7 @@ Simple and lightweight jQuery Plugin for displaying a nice, vertical timeline wi
 
 ### HTML
 
-	<div id="timeline"
+	<div id="timeline">
 		<ul>
 			<li data-date="1999">Description what happened in 1999</li>
 			<li data-date="2001">Description what happened in 2001</li>
