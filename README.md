@@ -6,13 +6,15 @@ Simple and lightweight jQuery Plugin for displaying a nice, vertical timeline wi
 
 ### HTML
 
-	<ul>
-		<li data-date="1999">Description what happened in 1999</li>
-		<li data-date="2001">Description what happened in 2001</li>
-		<li data-date="2012">Description what happened in 2012</li>
-		<li data-date="2013">Description what will happen in 2013</li>
-		<li data-date="2020">Description what will happen in 2020</li>
-	</ul>
+	<div id="timeline"
+		<ul>
+			<li data-date="1999">Description what happened in 1999</li>
+			<li data-date="2001">Description what happened in 2001</li>
+			<li data-date="2012">Description what happened in 2012</li>
+			<li data-date="2013">Description what will happen in 2013</li>
+			<li data-date="2020">Description what will happen in 2020</li>
+		</ul>
+	</div>
 
 
 **Required:**
@@ -37,13 +39,13 @@ Just look it up in the jquery.timeline.css – there's everything you need. Just
 As usual:
 
 	$(document).ready(function(){
-		$(".some-class-name").timeline();
+		$("#timeline").timeline();
 	});
 
 With options:
 
 	$(document).ready(function(){
-		$(".some-class-name").timeline({
+		$("#timeline").timeline({
 			spacing: 5,
 			spacingUnit: "px"
 		});
