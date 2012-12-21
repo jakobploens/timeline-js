@@ -70,7 +70,7 @@ $.fn.timeline = function(settings){
         /* convert date into some nice amount of numbers */
         convertDate = function(i){
         
-            if(!i || i == "") return false;
+            if(!i || i == "") return false;
 
             var d, b, y, m, t;
             
@@ -88,7 +88,7 @@ $.fn.timeline = function(settings){
         /* display the given (ugly) date-format in a nice, german way (like dd.mm.yyyy) - if needed */
         dateToTitle = function(i){
 
-            if(!i || i == "") return false;
+            if(!i || i == "") return false;
         
             var d, r;
             
