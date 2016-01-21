@@ -2,7 +2,7 @@
 
 TimelineJS calculates the right differences between two dates based on given date or date ranges.
 
-[View Demo on CodePen](https://codepen.io/jakobploens/pen/rxpKPW)
+[View Demo on CodePen](https://codepen.io/jakobploens/full/rxpKPW)
 
 ### Usage
 
