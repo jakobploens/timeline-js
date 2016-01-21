@@ -43,6 +43,11 @@ Insert JS and CSS files. Following markup is recommended:
 </ul>
 ```
 
+```javascript
+// Call plugin
+new Timeline(document.querySelector('.timeline'));
+```
+
 You can ommit everything inside the li, change the classes, go with DIVs, what you want. The only required thing is that the child elements have a "data-timeline-date" value. If you want to add the end, add "data-timeline-end".
 
 ### Options
