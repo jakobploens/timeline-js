@@ -2,6 +2,8 @@
 
 TimelineJS calculates the right differences between two dates based on given date or date ranges.
 
+[View Demo on CodePen](https://codepen.io/jakobploens/pen/rxpKPW)
+
 ### Usage
 
 Insert JS and CSS files. Following markup is recommended:
