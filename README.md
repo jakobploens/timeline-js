@@ -2,7 +2,9 @@
 
 TimelineJS calculates the right differences between two dates based on given date or date ranges.
 
-[View Demo on CodePen](https://codepen.io/jakobploens/full/rxpKPW)
+### Demo
+
+View Demo on CodePen: [https://codepen.io/jakobploens/full/rxpKPW](https://codepen.io/jakobploens/full/rxpKPW)
 
 ### Usage
 
@@ -65,5 +67,6 @@ If true, margin is set vertical (`margin-top`), otherwise it is set horizontally
 
 ### Roadmap
 
+- Sort dates before calculating spacing
 - Add horizontal CSS
 - Collect evens from the same date
